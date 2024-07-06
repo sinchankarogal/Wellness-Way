@@ -1,0 +1,81 @@
+/* App.css */
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+h2, h3 {
+  color: #343a40;
+}
+
+/* Navbar styles */
+.navbar {
+  margin-bottom: 20px;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Information container */
+.information-container {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pcos-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.pcos-text, .pcos-image {
+  flex: 1;
+  min-width: 300px;
+  margin: 10px;
+}
+
+.pcos-image img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+/* Form styles */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form h2 {
+  margin-bottom: 20px;
+}
+
+form .form-group {
+  margin-bottom: 15px;
+}
+
+form .btn {
+  width: 100%;
+}
+
+/* Footer styles */
+.footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #343a40;
+  color: #fff;
+  margin-top: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

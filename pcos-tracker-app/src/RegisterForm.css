@@ -1,0 +1,54 @@
+.register-page {
+    background-image: url('https://dtapclinic.com.my/wp-content/uploads/WomanHug-1024x675-1.png');
+    background-size: 700px; /* Set the size of the background image */
+    background-repeat: no-repeat; /* Ensure the image does not repeat */
+    background-position: right bottom; /* Position the image at the bottom-right corner */
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center vertically */
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.register-form h2 {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.register-form p {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.form-control {
+    margin-bottom: 15px;
+}
+
+.btn-block {
+    background-color: #28a745;
+    border: none;
+}
+
+.forgot-password {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}

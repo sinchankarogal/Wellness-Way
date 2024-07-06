@@ -1,0 +1,132 @@
+/* 
+   .navbar {
+    padding: 15px 20px;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5em;
+    color: #e9c46a; 
+    text-decoration: none;
+  }
+  
+  .navbar-brand:hover {
+    color: #f4a261;
+  }
+  
+  .navbar-nav {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-item {
+    margin-right: 
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: #2a9d8f; 
+  }
+  
+  .btn-logout {
+    background-color: #e76f51; 
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-logout:hover {
+    background-color: #d66a4e; 
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-nav {
+      flex-direction: row; 
+    }
+  
+    .nav-item {
+      margin-right: 10px; 
+    }
+  }
+   */
+/* Reset default margins and paddings for body and html */
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling for the navbar */
+.navbar {
+  padding: 15px 20px;
+  font-family: 'Arial', sans-serif;
+  color: #fff; /* Light text color */
+}
+
+.navbar-brand {
+  font-size: 1.5em;
+  color: #fff; /* Yellow */
+  text-decoration: none;
+}
+
+.navbar-brand:hover {
+  color: #f4a261; /* Light Orange */
+}
+
+.navbar-nav {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1em;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #2a9d8f; /* Greenish */
+}
+
+.btn-logout {
+  background-color: #e76f51; /* Red */
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-logout:hover {
+  background-color: #d66a4e; /* Darker Red */
+}
+
+/* Responsive Design for Mobile View */
+@media (max-width: 768px) {
+  .navbar-nav {
+      flex-direction: row; /* Ensure items are in a row */
+  }
+
+  .nav-item {
+      margin-right: 10px; /* Adjust spacing */
+  }
+}
